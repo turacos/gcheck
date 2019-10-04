@@ -183,6 +183,7 @@ func printProcess() {
        dotty = strings.Replace(dotty," ",".",-1)
        fmt.Printf("%s %s   %-11s%-8s%-8s%-20s%-15s%s\n",config[y].programName,dotty,"-","-","-","-","-",status) 
     }
+    config[y].status = 0
   }
  
 }
